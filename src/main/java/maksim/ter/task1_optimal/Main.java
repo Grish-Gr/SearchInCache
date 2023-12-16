@@ -1,4 +1,4 @@
-package maksim.ter;
+package maksim.ter.task1_optimal;
 
 import java.io.FileWriter;
 import java.io.IOException;

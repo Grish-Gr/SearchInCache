@@ -1,4 +1,4 @@
-package maksim.ter;
+package maksim.ter.task1_optimal;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class CacheService {
 
     private final int limitSizeCacheStorage;
-    private final HashMap<Long,AnalyzedRequest> analyzedRequests;
+    private final HashMap<Long, AnalyzedRequest> analyzedRequests;
     private final HashMap<Long, Object> cacheStorage = new HashMap<>();
 
     public CacheService(List<Long> identifiers, int limitSizeCacheStorage) {

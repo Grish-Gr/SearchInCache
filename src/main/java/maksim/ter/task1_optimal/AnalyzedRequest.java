@@ -1,4 +1,4 @@
-package maksim.ter;
+package maksim.ter.task1_optimal;
 
 import java.util.ArrayList;
 import java.util.Collections;
